@@ -1,0 +1,24 @@
+{
+  "name": "nimix-project",
+  "version": "1.0.0",
+  "description": "Projeto Integrador - Digital House",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleKnot/nimix-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleKnot/nimix-project/issues"
+  },
+  "homepage": "https://github.com/AleKnot/nimix-project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
