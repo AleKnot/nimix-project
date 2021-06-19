@@ -82,11 +82,6 @@ h2 {
 
 }
 
-.banner {
-    background-image: url("./img/banner.png");
-    height: 235px;
-}
-
 .logo_login {
     display: flex;
     align-items: center;
