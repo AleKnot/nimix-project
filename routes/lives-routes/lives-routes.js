@@ -14,4 +14,12 @@ router.get('/cadastrar', function(req, res, next) {
     });
 
 
+    /* GET agenda de lives listing. */
+router.get('/agenda', function(req, res, next) {
+  //   res.send('respond with a resource - Lives');
+
+  res.render("lives-views\\agenda-lives", { title: 'Agenda de Lives ihuu' })
+  });
+
+
 module.exports = router;
