@@ -5,24 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/stylesheets/agenda-lives-style.css">
-
     <title>Agenda Lives</title>
 </head>
 <body>
 
+    <%- include('../partials/menu.ejs') %> 
+    
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
 
     <div>
         <h3>Destaques</h3>
-        <table >
+        <table class="table" >
                 <tr>
                   <th colspan="3">DDDdddestaques</th>    
                 </tr>
                 <tr>
-                  <td>Infos live 1</td>
-                  <td>Infos live 2</td>    
-                  <td>Infos live 3</td>   
+                    <td>
+                      Infos live 1</p>
+                      Stremaer: Kira</p>
+                      Data: 24/07/2021</p>
+                      Hora: 17:00
+                    </td>
+                    <td>
+                        Infos live 2</p>
+                        Stremaer: Yugioh</p>
+                        Data: 25/07/2021</p>
+                        Hora: 18:00
+                      </td>    
+                      <td>
+                        Infos live 3</p>
+                        Stremaer: Kaiba</p>
+                        Data: 25/07/2021</p>
+                        Hora: 18:00
+                      </td>   
                 </tr>
               </table>
     </div>
@@ -34,12 +50,28 @@
                   <th colspan="3">Next on Nimix</th>    
                 </tr>
                 <tr>
-                  <td>Infos live 1</td>
-                  <td>Infos live 2</td>    
-                  <td>Infos live 3</td>   
+                    <td>
+                        Infos live 1</p>
+                        Stremaer: Kira</p>
+                        Data: 24/07/2021</p>
+                        Hora: 17:00
+                      </td>
+                      <td>
+                          Infos live 2</p>
+                          Stremaer: Yugioh</p>
+                          Data: 25/07/2021</p>
+                          Hora: 18:00
+                        </td>    
+                        <td>
+                          Infos live 3</p>
+                          Stremaer: Kaiba</p>
+                          Data: 25/07/2021</p>
+                          Hora: 18:00
+                        </td>      
                 </tr>
               </table>
     </div>
+    <%- include('../partials/footer.ejs') %> 
     
 </body>
 </html>

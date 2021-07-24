@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <%- include('partials/menu.ejs') %> 
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <div>
+      <a href="/login">Login</a>
+    </div>
+    <p></p>
+
+    <div>
+      <a href="/usuarios">Usuários</a>
+      <a href="/usuarios/cadastrar">Cadastro Usuários</a>
+    </div>
+
+    <p></p>
+
+    <div>
+      <a href="/lives">Lives</a>
+      <a href="/lives/cadastrar">Cadastro Lives</a>
+      <a href="/lives/agenda">Agenda Lives</a>
+    </div>
+
+
+  </body>
+</html>
