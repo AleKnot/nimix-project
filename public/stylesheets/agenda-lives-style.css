@@ -92,11 +92,15 @@
   }
 
 table, th, td {
-    border: 1px solid rgb(90, 218, 90);
+    border: 0.1px solid rgb(162, 212, 162);
     border-collapse: collapse;
     text-align: center;
-    color: #ffff00;
+    color: hsl(60, 71%, 70%);
     
+}
+
+header {
+  margin: 0;
 }
 
 .center
