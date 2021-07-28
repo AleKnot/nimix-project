@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #18181b;
+    width: 1440px;
+    max-width: 100%;
+    height: 700px;
+    max-height: 100%;
+}
+    
+div.header {
+    width: 1440px;
+    max-width: 100%;
+    background-color: #242730;
+}
+    
+header {
+    display: flex;
+    margin: 0;
+}
+    
+img.logo {
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 150px;
+    height: 55px;
+}
+
+form#buscar {
+    display: flex;
+    padding-left: 350px;
+    padding-top: 17px;
+}
+
+input {
+    height: 20px;
+    border-radius: 5px;
+    border-color: none;
+    padding: 5px;
+}
+
+img.pesquisa {
+    padding-left: 5px;
+}
+
+section#telespectador {
+    display:flex;
+    justify-content: space-between;
+    width: 1270px;
+    height: 750px;
+    background-color: #242730;
+    margin: 20px;
+}
+
+div#cabecarioLive {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+}
+
+p.subtitulo {
+    padding-top: 18px;
+    padding-left: 105px;
+    color: #9146FF;
+}
+
+img.video {
+    width: 650px;
+    margin-left: 20px;
+    height: 350px;
+}
+
+div#informacoesLive {
+    display: flex;
+    margin-left: 10px;
+}
+
+p.assistindo {
+    color: #16B27A;
+    font-size: 20px;
+}
+
+p.tempo {
+    color: #464649;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+p.seguidores {
+    color: #9146FF;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.retornar {
+    color: #6F778A;
+}
+
+p.sobre {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+}
+
+p.regras {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+}
+
+div#voltar_sobre_Regras{
+    display: flex;
+    padding-left: 35px;
+}
+
+div.caixa {
+    width: 260px;
+    margin-right: 30px;
+}
+
+div.voltar {
+    padding-top: 138px;
+    padding-right: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+p.chat {   
+    color: #6F778A;
+    padding-right: 360px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+div.caixaChat {
+    padding-right: 400px;
+    padding-top: 20px;
+    width: 250px;
+    height: 525px;
+    background-color: #18181b;
+}
+
+p.exibicao {
+    padding-left: 160px;
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+div.comentar {
+    border: solid pink 1px;
+    width: 370px;
+    height:25px;
+    background-color: #18181b;
+}
+
+form#submit {
+    display: flex;
+}
+
+input#comentario {
+    background-color: #18181b;
+    width: 375px;
+    height: 30px;
+    border: none;
+   /* border-radius: 5px;*/
+    /*border-color: white;*/
+    /*margin: 5px 20px 20px 20px;*/
+    padding: 5px;
+    color: white;
+    padding: 5px;
+}
+
+img.sobreCaixa {
+    width: 20px;
+    height: 20px;
+
+}
+
+a.enviar {
+    padding-top: 6px;
+    padding-left: 4px;
+}
+
+footer{
+    width: 1440px;
+    max-width: 100%;
+    height: 80px;
+    background-color: #242730;
+    padding: 2px;
+  }
+  
+  section#footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav.perfil {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: #18181b;
+  }
+
+  p.texto{
+    color: #EFEFEF;
+    padding: 13px;
+    padding-left: 20px;
+  }
+  
+  nav.logout {
+    padding: 25px;
+  }
+  
+  button.botaoLogout {
+    background-color: #464649;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    color: #EFEFEF;
+  }
+  
+  button.botaoLogout a{
+    color: #EFEFEF;
+    text-decoration: none;
+  }
+
+  div.usuario {
+    display: inline-block;
+  }

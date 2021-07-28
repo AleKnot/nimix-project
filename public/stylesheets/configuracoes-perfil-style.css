@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #18181b;
+  width: 1440px;
+  max-width: 100%;
+  height: 700px;
+  max-height: 100%;
+}
+  
+div.header {
+  width: 1440px;
+  max-width: 100%;
+  background-color: #242730;
+}
+  
+header {
+  margin: 0;
+}
+  
+img.logo {
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 150px;
+  height: 55px;
+}
+
+  nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#container1 {
+  width: 250px;
+  height: 525px;
+  background-color: #242730;
+  margin: 20px;
+}
+
+div.caixa1 {
+  display: flex;
+  flex-direction: column;
+}
+  
+li {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+
+a {     
+  display: inline-block;     
+  position: relative;    
+  z-index: 1;     
+  padding: 2em;     
+  margin: -2em; 
+  text-decoration: none;
+  color: #6F778A;
+  /*margin: 0 0 1px 0;*/
+ }
+
+section#container2 {
+  width: 1100px;
+  height: 525px;
+  background-color: #242730;
+  margin: 20px;
+}
+
+div.usuario {
+  display: flex;
+}
+
+p.status {
+  margin: 0 0 7px 0;
+}
+
+nav.informacoesPerfil {
+  flex-direction: column;
+  margin: 0 0 0 15px;
+}
+
+
+div.perfil {
+  width: 150px;
+  height: 150px;
+  background-color: #18181b;
+  border-radius: 50%;
+}
+
+p.textoPerfil {
+  text-align: center;
+  padding-top: 50px;
+  color: #6F778A;
+}
+
+div.caixa2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+input {
+  background-color: #18181b;
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  border-color: white;
+  margin: 5px 20px 20px 20px;
+  padding: 5px;
+  color: white;
+}
+
+label {
+  padding-left: 20px;
+  color: #6F778A
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #16B27A;
+}
+
+a.alterar {
+  color: black;
+}
+
+textarea {
+  background-color: #18181b;
+  border: none;
+  border-radius: 5px;
+  border-color: white;
+  margin: 5px 20px 20px 20px;
+  color: EFEFEF;
+  padding: 5px;
+  color: white;
+}
+
+footer{
+  width: 1440px;
+  max-width: 100%;
+  height: 80px;
+  background-color: #242730;
+  padding: 2px;
+}
+
+section#footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.perfil {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  background-color: #18181b;
+}
+
+section#metadeDaCaixa2 {
+  margin-left: 15px;
+}
+
+p.texto{
+  color: #EFEFEF;
+  padding: 13px;
+  padding-left: 20px;
+}
+
+nav.logout {
+  padding: 25px;
+}
+
+button.botaoLogout {
+  background-color: #464649;
+  border: none;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  color: #EFEFEF;
+}
+
+button.botaoLogout a{
+  color: #EFEFEF;
+  text-decoration: none;
+}
+
+
